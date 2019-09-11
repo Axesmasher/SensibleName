@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>X-UA-Compatible</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    
+	     <nav class="navbar navbar-light navbar-expand-md fixed-top shadow-sm bg-white">
+        <a class="navbar-brand" href="index.html" title="Home"><img src="assets/cody-icon.png" alt="Cody the CodeUp Owl" /> CodeUp Sheffield</a>
+        <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbar-links"
+            aria-controls="navbar-links"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar-links" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html" title="Frequently Asked Questions">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html" title="Learning Resources">Resources</a>
+                </li>
+            </ul>
+            <div>
+                <a class="btn btn-primary shadow" href="https://www.meetup.com/CodeUp-Sheffield/events" >Upcoming Events</a>
+            </div>
+        </div>
+    </nav>
+	
+	<hr /><hr /><hr />
+	        <section id="banner" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-2 col-lg-6 order-lg-2">
+                        <img class="img-fluid" src="assets/code-screenshot.png" alt="Screenshot of HTML and CSS" />
+                    </div>
+                    <div class="col-12 py-2 col-lg-6 order-lg-1">
+                        <h1>Welcome!</h1>
+                        <p class="lead">CodeUp Sheffield is a mentoring program for adults who would like to learn how to code for free. Once a month we get together to learn from each other, sharpen our skills and enjoy being in a space where everyone is immersed in code.</p>
+                        <a class="btn btn-primary shadow" href="https://www.meetup.com/CodeUp-Sheffield/events">Upcoming Events</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<div class="container">
+    <div class="row">
+        <div class="col-lg-6 order-lg-2">
+            <img class="img-fluid" src="assets/book.png" alt="A book"/>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+            <h1>Resources</h1>
+            <p class="lead">This page is currently lacking resources for learning to code! If you would like to add a resource to this page, open a pull request on the GitHub repo for this website or make a suggestion on Slack.</p>
+            <a class="btn btn-primary shadow" href="https://github.com/CodeUpSHF/CodeUpSHF.github.io">GitHub Repo</a>
+            <a class="btn btn-outline-primary" href="https://codeupshf-slack.herokuapp.com">Join us on Slack</a>
+        </div>
+    </div>
+</div>
+        <section id="content">
+            <div class="container py-4">
+                <div class="row py-md-4">
+                    <div class="col-12 col-md-6">
+                        <blockquote class="blockquote rounded bg-light p-4">
+                            <p>Please don't quote me.</p>
+                            <footer class="blockquote-footer">Anon</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <blockquote class="blockquote rounded bg-light p-4">
+                            <p>Well, I think it's pretty good.</p>
+                            <footer class="blockquote-footer">Simon Davey</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p>If your question is not answered here, please get in touch with us through <a href="https://www.meetup.com/CodeUp-Sheffield/events/">Meetup</a>, <a href="https://twitter.com/CodeUpSHF">Twitter</a> or <a href="https://codeupshf-slack.herokuapp.com/">Slack</a></p>
+    <div id="accordion">
+        <div class="card">
+            <button
+                class="card-header btn text-left"
+                id="questionOne"
+                data-toggle="collapse"
+                data-target="#answerOne">
+                What do I need to bring?
+            </button>
+            <div id="answerOne" class="card-body collapse" aria-labelledby="questionOne" data-parent="#accordion">
+                All you have to bring is a laptop, your enthusiasm and some coding to get on with. This can be a project, a book, or some online tutorials. If you are starting completely from scratch, don't worry - we will try to guide you towards some learning resources. Please try to install any relevant software in advance, but if you need assistance with this, we are happy to help.
+            </div>
+        </div>
+        <div class="card">
+            <button
+                class="card-header btn text-left"
+                id="questionTwo"
+                data-toggle="collapse"
+                data-target="#answerTwo">
+                What can I learn at a CodeUp Sheffield event?
+            </button>
+            <div id="answerTwo" class="card-body collapse" aria-labelledby="questionTwo" data-parent="#accordion">
+                Anything! We do not have a curriculum; CodeUp is more of a learning resource than a coding course. We sometimes run workshops, but otherwise our events are entirely learner-led. You bring along a project, a learning resource or just an interest in something related to coding, and one of our mentors will give you guidance. The combined experience of our members includes Python, JavaScript, Java, C#, Swift and more, so you are likely to find someone that can help you on your learning journey.
+            </div>
+        </div>
+        <div class="card">
+            <button
+                class="card-header btn text-left"
+                id="questionThree"
+                data-toggle="collapse"
+                data-target="#answerThree">
+                Can I become a mentor?
+            </button>
+            <div id="answerThree" class="card-body collapse" aria-labelledby="questionThree" data-parent="#accordion">
+                <p>Absolutely! We keep the mentor/learner roles informal, as we believe that everyone has something to teach and something to learn. So, all you have to do to be a mentor is give guidance to someone who needs it.</p>
+                <p>If you want to take it a step further, introduce yourself and tell us about your skillset in the -intros channel on Slack (you can sign up <a href="https://codeupshf-slack.herokuapp.com/" title="Signup page for CodeUp Sheffield's Slack workspace">here</a>), and we'll use that to match you up with compatible people.</p>
+                <p>All you need to be a good mentor is patience, good communication skills and enthusiasm for coding.</p>
+            </div>
+        </div>
+        <div class="card">
+            <button
+                class="card-header btn text-left"
+                id="questionFour"
+                data-toggle="collapse"
+                data-target="#answerFour">
+                What else is going on in Sheffield?
+            </button>
+            <div id="answerFour" class="card-body collapse" aria-labelledby="questionFour" data-parent="#accordion">
+                For more tech events in Sheffield, check out <a href="https://sheffieldgeeks.org.uk/" title="Sheffield Geeks">Sheffield Geeks</a> and <a href="https://sheffield.digital/events/" title="Sheffield Digital">Sheffield Digital</a>.
+            </div>
+        </div>
+    </div>
+</div>
+	<h1><strong> bow before your god mortal</strong></h1> 
+
+	<img src="assets\Baconcheeseburger.png"/>
+</body>
+</html>
